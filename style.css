@@ -21,6 +21,8 @@ body{
   }
   
   .inputGroup input {
+    color: #fff;
+    font-size: large;
     height: 50px;
     width: 378px;
     border-radius: 10px;
@@ -29,10 +31,12 @@ body{
     outline: none;
     appearance: none;
     background-color: transparent;
+    text-align: center;
   }
   
   .inputGroup :focus::placeholder {
     color: transparent;
+    padding: 10px
   }
   
   .inputGroup input::placeholder {
@@ -74,5 +78,7 @@ body{
     border: 0;
     cursor: pointer;
     margin-top: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
   }
   
